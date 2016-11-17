@@ -1,0 +1,68 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical" >
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cyan"
+            android:gravity="center_horizontal"
+            
+            android:text="@string/cis_to_yoga_center"
+            android:textColor="@color/blue"
+            android:textStyle="italic"
+            android:typeface="sans"
+            
+            android:textSize="@dimen/heading_size" />
+        
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:background="@color/cyan"
+                    android:gravity="left"
+                    android:layout_gravity="fill_horizontal"
+                    android:layout_weight="1" 
+                    android:text="@string/starts"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/sub_heading_size" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/cyan"
+                    android:gravity="right"
+                    android:text="@string/reaches"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/sub_heading_size" />
+
+            </LinearLayout>
+
+    <ListView
+        android:id="@id/android:list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:background="@color/lite_green"
+        android:layout_weight="2"
+        android:drawSelectorOnTop="false" >
+    </ListView>
+    
+    <TextView android:id="@id/android:empty"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFff00"
+        android:text="@string/no_data" />
+        
+ </LinearLayout>
+    

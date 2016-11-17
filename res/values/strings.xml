@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UoH Shuttle Bus Timings</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="cis_to_yoga_center">CIS to Yoga center</string>
+    <string name="yoga_center_to_cis">Yoga Center to CIS</string>
+    <string name="other_buses">Other buses</string>
+    <string name="developed_by">Developed by</string>
+    <string name="developer">Subba Reddy Veeramreddy</string>
+    <string name="starts">Starts</string>
+    <string name="reaches">Reaches</string>
+    <string name="no_data">No data</string>
+    <string name="cis_to_main_gate">CIS to Main Gate</string>
+    
+</resources>
